@@ -1,0 +1,20 @@
+# Large files
+data/raw/
+data/processed/
+training/outputs/
+*.safetensors
+*.ckpt
+*.pt
+
+# Logs
+training/logs/*.log
+*.log
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# OS
+.DS_Store
